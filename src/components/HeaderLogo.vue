@@ -1,5 +1,6 @@
 <template>
-  <p>This my logo</p>
+  <img alt="JavaGath logo" src="../assets/logo.png" />
+  <p>| JavaGath</p>
 </template>
 
 <script setup lang="ts"></script>
