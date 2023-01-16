@@ -1,6 +1,8 @@
 <template>
-  <button>sign up</button>
-  <button>login</button>
+  <div>
+    <button>sign up</button>
+    <button>login</button>
+  </div>
 </template>
 
 <script setup lang="ts"></script>

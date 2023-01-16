@@ -1,8 +1,8 @@
 <template>
   <header>
-    <HeaderLogo></HeaderLogo>
-    <NavBar></NavBar>
-    <HeaderSocial></HeaderSocial>
+    <HeaderLogo class="background-dev-red"></HeaderLogo>
+    <NavBar class="background-dev-green"></NavBar>
+    <HeaderSocial class="background-dev-blue"></HeaderSocial>
   </header>
 </template>
 
