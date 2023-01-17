@@ -1,11 +1,9 @@
 <template>
   <div>
-    <img
-      class="logo border-dev-blue"
-      alt="JavaGath logo"
-      src="../assets/logo.png"
-    />
-    <p class="page-name border-dev-red">| JavaGath</p>
+    <p class="page-name">
+      <img class="logo" alt="JavaGath logo" src="../assets/logo.png" />
+      | JavaGath
+    </p>
   </div>
 </template>
 
