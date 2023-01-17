@@ -15,4 +15,11 @@ header {
     background: black;
     color: aliceblue;
     display: flex;
+    border: medium dashed #e476fa;
 }
+
+header p {
+    margin: 0
+}
+
+
