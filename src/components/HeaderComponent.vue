@@ -1,8 +1,8 @@
 <template>
   <header>
-    <HeaderLogo class="background-dev-red"></HeaderLogo>
-    <NavBar class="background-dev-green"></NavBar>
-    <HeaderSocial class="background-dev-blue"></HeaderSocial>
+    <HeaderLogo class="background-dev-red width-35"></HeaderLogo>
+    <NavBar class="background-dev-green width-30"></NavBar>
+    <HeaderSocial class="background-dev-blue width-35"></HeaderSocial>
   </header>
 </template>
 
@@ -17,4 +17,12 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.width-35 {
+  width: 35%;
+}
+
+.width-30 {
+  width: 30%;
+}
+</style>

@@ -10,4 +10,9 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+a {
+  display: inline-block;
+  width: 30%;
+}
+</style>

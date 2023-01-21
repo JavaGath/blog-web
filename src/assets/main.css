@@ -14,12 +14,15 @@ body, html {
 header {
     background: black;
     color: aliceblue;
+    overflow: auto;
     display: flex;
-    border: medium dashed #e476fa;
 }
 
 header p {
     margin: 0
 }
 
-
+nav {
+    display: inline-flex;
+    justify-content: center
+}
