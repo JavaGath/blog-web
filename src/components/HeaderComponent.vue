@@ -1,7 +1,7 @@
 <template>
   <header>
     <HeaderLogo class="width-35 left-align"></HeaderLogo>
-    <NavBar class="background-dev-green width-30"></NavBar>
+    <NavBar class="width-30"></NavBar>
     <HeaderSocial class="background-dev-blue width-35"></HeaderSocial>
   </header>
 </template>

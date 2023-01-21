@@ -16,13 +16,17 @@ header {
     color: aliceblue;
     overflow: auto;
     display: flex;
+    line-height: 70px;
 }
 
-header p {
-    margin: 0
+header p, header a {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 nav {
     display: inline-flex;
-    justify-content: center
+    justify-content: center;
+    text-align: center;
 }
