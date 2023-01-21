@@ -2,7 +2,7 @@
   <header class="no-select default-cursor">
     <HeaderLogo class="width-35 left-align"></HeaderLogo>
     <NavBar class="width-30"></NavBar>
-    <HeaderSocial class="background-dev-blue width-35"></HeaderSocial>
+    <HeaderSocial class="width-35 center"></HeaderSocial>
   </header>
 </template>
 
