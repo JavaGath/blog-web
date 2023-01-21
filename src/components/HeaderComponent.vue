@@ -1,6 +1,6 @@
 <template>
   <header>
-    <HeaderLogo class="background-dev-red width-35"></HeaderLogo>
+    <HeaderLogo class="width-35 left-align"></HeaderLogo>
     <NavBar class="background-dev-green width-30"></NavBar>
     <HeaderSocial class="background-dev-blue width-35"></HeaderSocial>
   </header>
