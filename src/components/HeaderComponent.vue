@@ -1,8 +1,8 @@
 <template>
   <header class="no-select default-cursor">
-    <HeaderLogo class="header-logo left-align"></HeaderLogo>
+    <HeaderLogo class="header-logo text-left-align"></HeaderLogo>
     <NavBar class="header-nav"></NavBar>
-    <HeaderSocial class="header-social center"></HeaderSocial>
+    <HeaderSocial class="header-social center div-right-align"></HeaderSocial>
   </header>
 </template>
 

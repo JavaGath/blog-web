@@ -8,16 +8,21 @@
                                      supported by Chrome, Edge, Opera and Firefox */
 }
 
-.left-align {
-    text-align: left;
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .default-cursor {
     cursor: default;
 }
 
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: right;
+.div-right-align {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.text-left-align {
+    text-align: left;
 }
