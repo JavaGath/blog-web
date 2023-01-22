@@ -1,8 +1,8 @@
 <template>
   <header class="no-select default-cursor">
-    <HeaderLogo class="width-35 left-align"></HeaderLogo>
-    <NavBar class="width-30"></NavBar>
-    <HeaderSocial class="width-35 center"></HeaderSocial>
+    <HeaderLogo class="header-logo left-align"></HeaderLogo>
+    <NavBar class="header-nav"></NavBar>
+    <HeaderSocial class="header-social center"></HeaderSocial>
   </header>
 </template>
 
@@ -18,11 +18,28 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.width-35 {
-  width: 35%;
+.header-logo,
+header-social {
+  width: 25%;
 }
 
-.width-30 {
-  width: 30%;
+.header-nav {
+  width: 50%;
+}
+
+@media screen and (max-width: 875px) {
+  .header-logo {
+    width: 15%;
+  }
+
+  .header-social {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
 }
 </style>
