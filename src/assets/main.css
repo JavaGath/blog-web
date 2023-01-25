@@ -34,7 +34,11 @@ button {
     -webkit-transition: all 0.4s ease;
 }
 
-header {
+footer {
+    height: 200px;
+}
+
+header, footer {
     background: black;
     color: aliceblue;
     overflow: auto;
