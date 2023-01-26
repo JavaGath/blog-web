@@ -21,7 +21,7 @@ p {
   padding-left: 10px;
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 900px) {
   .logo-text {
     display: none;
   }

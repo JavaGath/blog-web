@@ -1,11 +1,20 @@
-.no-select {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none;
-    /* Non-prefixed version, currently
-                                     supported by Chrome, Edge, Opera and Firefox */
+.bar-sub {
+    width: 25%;
+}
+
+.bar-main {
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .bar-sub {
+        display: none;
+    }
+
+    .bar-main {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .center {
@@ -38,6 +47,16 @@
 .div-right-align {
     margin-left: auto;
     margin-right: 10px;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome, Edge, Opera and Firefox */
 }
 
 .text-left-align {

@@ -9,10 +9,10 @@ body, html {
     width: 100%;
     height: 100%;
     text-align: center;
-    min-width: 865px
+    min-width: 900px
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 900px) {
     body, html {
         min-width: 375px
     }
