@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import HeaderComponent from "@/components/HeaderComponent.vue";
-</script>
-
 <template>
   <div class="container-wrapper">
     <HeaderComponent></HeaderComponent>
@@ -11,3 +7,7 @@ import HeaderComponent from "@/components/HeaderComponent.vue";
     </footer>
   </div>
 </template>
+
+<script setup lang="ts">
+import HeaderComponent from "@/components/HeaderComponent.vue";
+</script>
