@@ -31,7 +31,6 @@ button {
     float: right;
     margin: 4px 5px;
     height: 40px;
-    display: flex;
     align-items: center;
     transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
@@ -39,7 +38,6 @@ button {
 
 footer {
     height: 200px;
-    display: flex;
     justify-content: center;
     text-align: left;
     padding-top: 0;
@@ -53,19 +51,26 @@ footer h2::after {
     margin-top: -20px;
     content: '';
     display: block;
-    width: 15%;
+    width: 50px;
     height: 3px;
     background-color: #da5408;
 }
 
 footer p,
+footer a,
 footer .row-wrapper {
     line-height: 20px;
     margin: 0;
 }
 
+footer a {
+    font-weight: bold;
+}
+
 footer .element {
     width: 25%;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 footer i {
@@ -93,12 +98,15 @@ header a {
 }
 
 header a:link,
-header a:visited {
+header a:visited,
+footer a:link,
+footer a:visited {
     text-decoration: none;
     color: aliceblue;
 }
 
-header a:hover {
+header a:hover,
+footer a:hover {
     color: #da5408;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;

@@ -1,7 +1,7 @@
 <template>
   <footer>
     <FooterContact class="element"></FooterContact>
-    <FooterProjects class="element background-dev-blue"></FooterProjects>
+    <FooterProjects class="element"></FooterProjects>
     <FooterSocial class="element background-dev-green"></FooterSocial>
   </footer>
 </template>

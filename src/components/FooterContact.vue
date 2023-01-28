@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>Contact info</h2>
-    <p class="empty-line-space">
+    <h2 class="no-select default-cursor">Contact info</h2>
+    <p class="empty-line-space no-select default-cursor">
       If you have any questions, thoughts or ideas (e.g. suggestions for future
       articles) contact me via email.
     </p>

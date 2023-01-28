@@ -44,6 +44,10 @@
      */
 }
 
+.display-flex {
+    display: flex;
+}
+
 .default-cursor {
     cursor: default;
 }
@@ -67,13 +71,18 @@
     -ms-user-select: none;
     /* Internet Explorer/Edge */
     user-select: none;
-    /* Non-prefixed version, currently
-                                     supported by Chrome, Edge, Opera and Firefox */
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 
 .one-row {
     display: inline;
+}
+
+.sub-element {
+    width: 50%;
+    min-width: 100px;
+    padding-left: 20px;
 }
 
 .text-left-align {
