@@ -9,9 +9,9 @@
 </template>
 
 <script setup lang="ts">
-import HeaderLogo from "@/components/HeaderLogo.vue";
-import NavBar from "@/components/HeaderNav.vue";
-import HeaderSocial from "@/components/HeaderSocial.vue";
+import HeaderLogo from '@/components/HeaderLogo.vue'
+import NavBar from '@/components/HeaderNav.vue'
+import HeaderSocial from '@/components/HeaderSocial.vue'
 </script>
 
 <style scoped>
