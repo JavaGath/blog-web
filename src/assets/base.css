@@ -23,6 +23,10 @@
     justify-content: right;
 }
 
+.color-orange {
+    color: #da5408;
+}
+
 .container-wrapper {
     display: flex;
     min-height: 100vh;
@@ -49,14 +53,27 @@
     margin-right: 10px;
 }
 
+.empty-line-space {
+    margin-bottom: 15px;
+}
+
 .no-select {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
     user-select: none;
     /* Non-prefixed version, currently
                                      supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+.one-row {
+    display: inline;
 }
 
 .text-left-align {
