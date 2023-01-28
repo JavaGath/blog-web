@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2>Social Media</h2>
+  <div class="no-select">
+    <h2 class="default-cursor">Social Media</h2>
     <a href="https://github.com/JavaGath">
       <img
         class="icon"

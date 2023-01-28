@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2 class="no-select default-cursor">Project repositories</h2>
+  <div class="no-select">
+    <h2 class="default-cursor">Project repositories</h2>
     <div class="display-flex">
       <div class="sub-element">
         <a href="https://github.com/JavaGath/blog-web">Blog Web</a>
