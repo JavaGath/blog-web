@@ -81,7 +81,7 @@ footer i {
 
 header,
 footer {
-    background: black;
+    background: #1E1E1C;
     color: aliceblue;
     overflow: auto;
     display: flex;

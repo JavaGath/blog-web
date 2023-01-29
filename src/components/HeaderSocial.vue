@@ -23,13 +23,13 @@
 }
 
 .sign-in {
-  background-color: #000000;
+  background: #1e1e1c;
   color: aliceblue;
   border: 1px solid white;
 }
 
 .sign-in:hover {
-  color: #000000;
+  color: #1e1e1c;
   background-color: aliceblue;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
