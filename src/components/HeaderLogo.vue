@@ -1,29 +1,12 @@
 <template>
-  <div>
-    <p><img class="logo" alt="JavaGath logo" src="../assets/logo.png" /></p>
-    <p class="logo-text">| JavaGath</p>
+  <div class="">
+    <p>
+      <img class="h-20" alt="JavaGath logo" src="../assets/logo.png" />
+    </p>
+    <p class="pl-3">| JavaGath</p>
   </div>
 </template>
 
 <script setup lang="ts"></script>
 
-<style scoped>
-p {
-  display: inline;
-}
-
-.logo {
-  vertical-align: middle;
-  height: 70px;
-}
-
-.logo-text {
-  padding-left: 10px;
-}
-
-@media screen and (max-width: 900px) {
-  .logo-text {
-    display: none;
-  }
-}
-</style>
+<style scoped></style>

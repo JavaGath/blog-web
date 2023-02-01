@@ -1,9 +1,13 @@
 <template>
-  <header class="no-select default-cursor">
-    <HeaderLogo class="bar-sub header-logo text-left-align"></HeaderLogo>
-    <NavBar class="bar-main"></NavBar>
+  <header class="grid grid-cols-12 text-blue-50">
+    <HeaderLogo
+      class="inline-flex h-20 font-bold items-center col-start-1 col-end-4"
+    ></HeaderLogo>
+    <NavBar
+      class="bg-blue-600 inline-flex h-20 items-center col-start-4 col-end-10"
+    ></NavBar>
     <HeaderSocial
-      class="bar-sub header-social center div-right-align"
+      class="bg-green-600 inline-flex h-20 items-center col-start-10 col-end-13"
     ></HeaderSocial>
   </header>
 </template>
@@ -15,6 +19,23 @@ import HeaderSocial from '@/components/HeaderSocial.vue'
 </script>
 
 <style scoped>
+.no-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.default-cursor {
+  cursor: default;
+}
+
 @media screen and (max-width: 900px) {
   .header-logo {
     width: 10%;
