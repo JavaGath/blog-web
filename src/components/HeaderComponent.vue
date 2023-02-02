@@ -7,7 +7,7 @@
       class="inline-flex h-20 items-center col-start-4 col-end-10"
     ></NavBar>
     <HeaderSocial
-      class="bg-green-600 inline-flex h-20 items-center col-start-10 col-end-13"
+      class="flex justify-end h-20 items-center col-start-10 col-end-13"
     ></HeaderSocial>
   </header>
 </template>
