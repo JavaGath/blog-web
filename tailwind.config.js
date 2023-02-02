@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'logo-color': '#1E1E1C',
+        'button-color': '#DA5408',
       },
     },
   },

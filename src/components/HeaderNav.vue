@@ -1,18 +1,13 @@
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/" class="link">Home</RouterLink>
     <p>|</p>
-    <RouterLink to="/private">Private</RouterLink>
+    <RouterLink to="/private" class="link">Private</RouterLink>
     <p>|</p>
-    <RouterLink to="/admin">Admin</RouterLink>
+    <RouterLink to="/admin" class="link">Admin</RouterLink>
   </nav>
 </template>
 
 <script setup lang="ts"></script>
 
-<style scoped>
-a {
-  display: inline-block;
-  width: 30%;
-}
-</style>
+<style scoped></style>
