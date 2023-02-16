@@ -30,6 +30,6 @@
     }
 
     footer h2:after {
-        @apply content-[''] block w-14 h-1 bg-button-color
+        @apply content-[''] block w-14 h-1 bg-button-color mb-4
     }
 }
