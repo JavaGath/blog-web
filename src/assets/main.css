@@ -28,4 +28,8 @@
     .btn:hover {
         @apply bg-blue-50
     }
+
+    footer h2:after {
+        @apply content-[''] block w-14 h-1 bg-button-color
+    }
 }

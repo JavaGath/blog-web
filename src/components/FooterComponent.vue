@@ -1,8 +1,14 @@
 <template>
   <footer>
-    <FooterContact class="element visible"></FooterContact>
-    <FooterProjects class="element hidden"></FooterProjects>
-    <FooterSocial class="element hidden"></FooterSocial>
+    <FooterContact
+      class="inline-flex col-start-1 col-end-5 pt-2 pl-2"
+    ></FooterContact>
+    <FooterProjects
+      class="inline-flex col-start-5 col-end-9 pt-2 pl-2 no-select"
+    ></FooterProjects>
+    <FooterSocial
+      class="inline-flex col-start-9 col-end-13 pt-2 pl-2 no-select"
+    ></FooterSocial>
   </footer>
 </template>
 
@@ -12,20 +18,4 @@ import FooterProjects from '@/components/FooterProjects.vue'
 import FooterSocial from '@/components/FooterSocial.vue'
 </script>
 
-<style scoped>
-.element {
-  width: 260px;
-  min-width: 260px;
-}
-
-@media screen and (max-width: 900px) {
-  .visible {
-    width: 100%;
-    max-width: 500px;
-  }
-
-  .hidden {
-    display: none;
-  }
-}
-</style>
+<style scoped></style>
