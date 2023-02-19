@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <FooterContact class="col-start-2 col-end-5 pt-2 pl-2 pr-8"></FooterContact>
+    <FooterContact class="col-start-2 col-end-5 pt-2 pl-6 pr-8"></FooterContact>
     <FooterProjects
       class="col-start-5 col-end-9 pt-2 pl-2 no-select"
     ></FooterProjects>
