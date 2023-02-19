@@ -9,13 +9,14 @@
     }
 
     .btn {
-        @apply duration-700 px-2 py-2 text-center text-xl rounded-md m-1 w-28 border-solid border-2
+        @apply px-2 py-2 text-center text-xl rounded-md m-1 w-28 border-solid border-2
     }
 
     .link {
-        @apply duration-700 w-1/3 text-center
+        @apply w-1/3 text-center
     }
 
+    footer a:hover,
     .link:hover,
     .btn:hover {
         @apply transition-all ease-in-out duration-500
@@ -27,6 +28,20 @@
 
     .btn:hover {
         @apply bg-blue-50
+    }
+
+    footer a,
+    .btn,
+    .link {
+        @apply duration-700
+    }
+
+    footer a {
+        @apply list-item
+    }
+
+    footer a:hover {
+        @apply text-button-color
     }
 
     footer h2:after {
