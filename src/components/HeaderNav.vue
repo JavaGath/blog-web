@@ -7,5 +7,3 @@
     <RouterLink to="/admin" class="link">Admin</RouterLink>
   </nav>
 </template>
-
-<script setup lang="ts"></script>
