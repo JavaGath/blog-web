@@ -3,6 +3,9 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      md: { max: '1125px' },
+    },
     extend: {
       colors: {
         'logo-color': '#1E1E1C',
